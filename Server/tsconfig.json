@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",             /* Node.js uses CommonJS */
+    "rootDir": "./src",               /* Where our code lives */
+    "outDir": "./dist",               /* Where the built code goes for deployment */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                   /* Enable strict typing (Recruiters love this) */
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
