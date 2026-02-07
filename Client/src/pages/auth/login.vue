@@ -51,9 +51,9 @@ import { Label } from '@/components/ui/label'
                 </div>
             <div>
               Don't have an account?
-              <Button variant="link" class="ml-1 text-red-500 underline">
+              <router-link to="/signup" class="ml-1 text-red-500 underline cursor-pointer">
                 Sign Up
-              </Button>
+              </router-link>
             </div>
           </CardFooter>
         </Card>
