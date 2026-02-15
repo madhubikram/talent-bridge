@@ -54,7 +54,7 @@ export default {
         sans: ["sans-serif"],
         display: ["display"],
       },
-
+      
     },
   },
   plugins: [],
