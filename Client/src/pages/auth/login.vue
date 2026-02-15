@@ -28,7 +28,7 @@ import { Label } from '@/components/ui/label'
               <div class="grid w-full items-center gap-4 text-white">
                 <div class="mt-10 flex flex-col space-y-1.5">
                   <Label for="email">Email</Label>
-                  <Input id="email" type="email" placeholder="something@example.com" class="border-l-0 border-r-0 border-t-0 border-b-1 rounded-none" />
+                  <Input id="email" type="email" placeholder="something@example.com" class="border-l-0 border-r-0 border-t-0 border-b-1 rounded-none placeholder:text-white-50" />
                 </div>
                 <div class="flex flex-col space-y-1.5 mt-5">
                     <Label for="password">Password</Label>
@@ -44,16 +44,16 @@ import { Label } from '@/components/ui/label'
               </div>
             </form>
           </CardContent>
-          <CardFooter class="flex flex-col gap-3 mt-4 text-white">
-            <Button class="w-full cursor-pointer">
+          <CardFooter class="flex flex-col gap-3 mt-4 text-white p-0 mt-10">
+            <Button class="w-full cursor-pointer bg-zinc-100 text-sky-950 font-semibold hover:bg-neutral-300">
               Login
             </Button>
-            <Button variant="outline" class="w-full cursor-pointer">
+            <Button variant="outline" class="w-full cursor-pointer mt-2 font-semibold">
               Login with Google
             </Button>
-            <div>
+            <div class="mt-2.5 text-sky-950 ">
               Don't have an account?
-              <router-link to="/signup" class="ml-1 text-stone-800 font-bold cursor-pointer">
+              <router-link to="/signup" class="ml-1 text-neutral-100 cursor-pointer">
                 Sign Up 
               </router-link>
             </div>
@@ -62,7 +62,7 @@ import { Label } from '@/components/ui/label'
       </div>
     </div>
   </div>
-    </div>
+</div>
 </template>
 
 <style scoped>
